@@ -30,7 +30,7 @@ def format_data(res):
     data['dob'] = res['dob']['date']
     data['registered_date'] = res['registered']['date']
     data['phone'] = res['phone']
-    data['picture'] = data['picture']['medium']
+    data['picture'] = res['picture']['medium']
 
     return data
 
